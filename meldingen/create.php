@@ -38,12 +38,17 @@
             </div>
             <div class="form-group">
                 <label for="prio">Prioriteit?</label>
+                <input type="checkbox" name="priority" id="priority">
+                <label for="prio">heeft dit prioriteit?</label>
             </div>
             <div class="form-group">
                 <label for="melder">Naam melder:</label>
                 <input type="text" name="melder" id="melder" class="form-input">
             </div>
-            
+            <div class="form-group">
+                <label for="overig">Overige informatie:</label>
+                <textarea name="overig" id="overig" cols="72" rows="4"></textarea>
+            </div>
             <input type="submit" value="Verstuur melding">
 
         </form>
