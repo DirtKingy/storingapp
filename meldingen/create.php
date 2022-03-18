@@ -20,7 +20,7 @@
                 <input type="text" name="attractie" id="attractie" class="form-input">
             </div>
             <div class="form-group">
-                <label for="type">Type</label>
+                <label for="type">Type:</label>
                 <select type="group" id="group" class="form-input">
                     <option value="">- kies de type -</option>
                     <option value="Achtbaan">Achtbaan</option>
@@ -37,7 +37,7 @@
                 <input type="number" min="0" name="capaciteit" id="capaciteit" class="form-input">
             </div>
             <div class="form-group">
-                <label for="prio">Prioriteit?</label>
+                <label for="prio">Prioriteit:</label>
                 <input type="checkbox" name="priority" id="priority">
                 <label for="prio">heeft dit prioriteit?</label>
             </div>
