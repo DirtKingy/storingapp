@@ -20,8 +20,8 @@
                 <input type="text" name="attractie" id="attractie" class="form-input">
             </div>
             <div class="form-group">
-                <label for="group">Type</label>
-                <select type="group" id="group">
+                <label for="type">Type</label>
+                <select type="group" id="group" class="form-input">
                     <option value="">- kies de type -</option>
                     <option value="A">Achtbaan</option>
                     <option value="B">Draaiende Attractie</option>
@@ -35,6 +35,9 @@
             <div class="form-group">
                 <label for="capaciteit">Capaciteit p/uur:</label>
                 <input type="number" min="0" name="capaciteit" id="capaciteit" class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="prio">Prioriteit?</label>
             </div>
             <div class="form-group">
                 <label for="melder">Naam melder:</label>
